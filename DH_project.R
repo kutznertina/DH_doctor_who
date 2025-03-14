@@ -98,8 +98,8 @@ print(episode_script_urls)
 # Dateien umbennenen für PCA corpus
 
 
-classic_path <- "~/R Coding for DH/R Project/DoctorWho_Classic"
-new_path <- "~/R Coding for DH/R Project/DoctorWho_New"
+classic_path <- "DoctorWho_Classic"
+new_path <- "DoctorWho_New"
 
 # Classic Who 
 classic_files <- list.files(classic_path, full.names = TRUE)
@@ -129,8 +129,8 @@ library(tidytext)
 library(udpipe)
 
 
-classic_path <- "~/R Coding for DH/R Project/DoctorWho_Classic"
-new_path <- "~/R Coding for DH/R Project/DoctorWho_New"
+classic_path <- "DoctorWho_Classic"
+new_path <- "DoctorWho_New"
 
 # Korpora erstellen
 classic_corpus <- VCorpus(DirSource(classic_path, encoding = "UTF-8"),
